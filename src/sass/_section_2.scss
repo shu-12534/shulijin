@@ -1,0 +1,153 @@
+#section_2{
+     background:#f4f0ea;
+     padding-bottom: 60px;
+    .sec2_top{
+        padding:60px 0 15px 0;
+        h3{
+            font-size: 28px;
+            font-weight: 700;
+            float: left;
+            margin-right: 20px;
+        }
+          
+        .list li{
+            margin-top:12px;
+            float:left;
+            font-size: 14px;
+            a{
+                color: #333;
+                margin-left: 55px;
+            }    
+        }
+        .more{
+            float:right;
+            padding-bottom: -5px;
+            cursor: pointer;
+            font-size: 14px;
+            color:black;
+        }
+        .more a{
+        font-size: 14px;
+        color:black;
+        }   
+    } 
+    .sec2_img{
+        >div{
+            border:1px solid #ccc;
+            float: left;
+            background: white;
+            margin-right: 5px;
+            overflow: hidden;
+        }
+        .img{
+            transition: all 2s;
+        }
+        >div:hover{
+           .img{
+                transform: scale(1.1); 
+            }
+        }
+        .bd{
+            border-top: 1px solid #ccc;
+            padding-top: 32px;
+        }
+        p{
+            margin: 0 auto;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            color:#333;
+            text-align: center; 
+            font-size:13px;
+            font-weight: 600;
+            width:180px; 
+        }
+        .price{
+            width:40px;
+            margin:10px auto;
+            font-size: 12px;
+            height: 12px;
+            color:#d4282d;
+}
+       .sec2_img1{
+          .bd{
+              border-top: 1px solid #ccc;
+              width:400px;
+              height:91px;
+              padding-top: 40px;
+              p{
+                  font-weight: 600;
+                  font-size: 18px;
+                  color:#333;
+                  text-align: center;
+              }
+              .price{   
+                  width:98px;
+                  margin:20px auto;
+                  font-size: 18px;
+                  height: 18px;
+                  color:#d4282d;
+              }
+          }
+         .img{  
+             margin:40px;
+             width:320px;
+             height:320px;
+             background:url(https://yanxuan.nosdn.127.net/73a065d6fc8c32197b54421808c54788.png?quality=95&thumbnail=320x320&imageView);
+         } 
+       }
+       .sec2_img2{
+           margin-bottom: 15px;
+           .img{
+             margin:0 20px;
+             width:180px;
+             height:180px;
+             background:url(https://yanxuan.nosdn.127.net/e1d2f0b529eddc9b645997d0f16e9aca.png?quality=95&thumbnail=180y180&imageView);
+         } 
+       } 
+       .sec2_img3{
+           margin-bottom: 15px;
+            .img{
+             margin:0 20px;
+             width:180px;
+             height:180px;
+             background:url(https://yanxuan.nosdn.127.net/1979054e3a1c8409f10191242165e674.png?quality=95&thumbnail=180y180&imageView);
+         } 
+       } 
+      .sec2_img4{
+          margin-bottom: 15px;
+          margin-right: 0;
+           .img{
+             margin:0 20px;
+             width:180px;
+             height:180px;
+             background:url(https://yanxuan.nosdn.127.net/2eb0624b89d2cce1a5fb13187a0c10d8.jpg?quality=95&thumbnail=180y180&imageView);
+         } 
+       }
+       .sec2_img5{
+           .img{
+             margin:0 20px;
+             width:180px;
+             height:180px;
+             background:url(https://yanxuan.nosdn.127.net/2d7d03e6ab0d41f3cf7df1221357e35f.png?quality=95&thumbnail=180y180&imageView);
+         } 
+       }
+       .sec2_img6{
+           .img{
+             margin:0 20px;
+             width:180px;
+             height:180px;
+             background:url(https://yanxuan.nosdn.127.net/61f8e81172d9afd38126bae65d2eddfe.png?quality=95&thumbnail=180y180&imageView);
+         } 
+       }
+       .sec2_img7{
+           margin-right: 0;
+           .img{
+             margin:0 20px;
+             width:180px;
+             height:180px;
+             background:url(https://yanxuan.nosdn.127.net/308e394e394b0eff5784ff7aa48274e2.png?quality=95&thumbnail=180y180&imageView);
+         } 
+       }    
+    }
+}

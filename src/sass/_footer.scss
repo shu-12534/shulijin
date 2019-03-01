@@ -1,0 +1,101 @@
+#footer{
+    border-top: 1px solid #e8e8e8;
+    padding:60px 0 30px 0;
+    .wrapper >div{
+        float: left;
+        padding:0 30px;
+    }
+    .footer-l{
+        text-align: center;
+        width:295px;
+        div{
+            margin-top:40px;
+        }
+        a{
+            display: inline-block;
+        }
+        .serive,.back{
+            border: 1px solid #E8E8E8;
+            padding-top:30px;
+            width:80px;
+            height:70px;
+            text-align: center;
+            margin-left:20px;
+            i{
+                margin:0 auto 10px;
+                display: block;
+                width:31px;
+                height:26px;              
+            }
+            span{
+                color:#333;
+            }  
+        }
+        .serive i{
+                background:url($bg1) 0 -287px;
+            }
+            .back i{
+                background:url($bg1) 0 -96px;
+            }
+    }
+    .footer-m{
+        width:308px;
+        border-left: 1px solid #e9e9e9;
+         border-right: 1px solid #e9e9e9;
+        span{
+            display: block;
+            width:65px;
+            margin: 0 auto 20px;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 28px;
+        }
+        p{
+            text-align: justify;
+            font-size: 13px;
+            line-height: 23px;
+            margin-bottom: 20px;  
+        }
+        em{
+            font-size: 14px;  
+            font-style: normal;
+            vertical-align: middle;
+        }
+        i{
+            display: inline-block;
+            width:32px;
+            height:32px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        i:nth-of-type(1){
+            background:url($bg1) 0 -326px;
+        }
+        i:nth-of-type(2){
+            background:url($bg1) 0 -428px;
+        }
+        i:nth-of-type(3){
+            background:url($bg1) 0 -470px;
+        }
+    }
+    .footer-r{
+        margin-left: 100px;
+        img{
+
+            margin:0 auto;
+            display: block;
+            width:104px;
+            height:104px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 28px;
+        }
+        span{
+            color: #b4a078;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+    }
+}

@@ -1,0 +1,423 @@
+#details{
+$bg: '../img/jingling.png';
+$bg3:'../img/jinglingtu4.png';  
+    span{
+        cursor:pointer ;
+    }
+    .btn2:hover{
+        background:#b4a078;
+    }
+  .magnifier{
+      a{
+        font-size: 12px;
+        color: #333;
+        padding:20px 0;
+        display: inline-block;
+      }
+      i{
+          display: inline-block;
+          height: 11px;
+          width: 5px;
+          margin:0 5px;
+          background:url($bg3) 0 -1093px;
+      }
+      .buy{
+          float:right;
+          width:500px;
+      }
+      .slide{
+          width:523px;
+          float:left;
+          position:relative;
+          .thumb{
+              float:left;
+              position:relative;
+              background-color:#f4f4f4;
+              img{
+                  height:430px;
+                  width:430px; 
+              }
+              .sf{
+                  display: none;
+                  position:absolute;
+                  left:0;
+                  top:0;
+                  background:#6699CC;
+                  opacity: 0.5;
+              }
+          }
+          .bf{
+              display: none;
+              width:430px;
+              height:430px;
+              position:absolute;
+              left:440px;
+              top:0;
+              overflow: hidden;
+              z-index: 5;
+              background-color:#f4f4f4;
+              img{
+                  display: block;
+                  width:860px;
+                  height:860px;
+                  position:absolute;
+                  top:0px;
+                  left:0px;
+              }
+          }
+          ul{
+              height:430px;
+              width:78px;
+              float:left;
+              margin-left:15px; 
+              li{
+                  background:#f4f4f4;
+                  height:78px;
+                  width:78px;
+                  margin-bottom: 10px;
+                  border:1px solid initial;
+                img{
+                    width:76px;
+                }
+              } 
+          }
+      }
+  } 
+  
+  .youhui{
+      position: relative;
+      top:-70px;
+       display: block;
+        margin-top: 15px;
+        width:131px ;
+        padding: 0 10px;
+        color: #b4a078;
+        border: 1px solid #b4a078;
+        background-color: #f5f3ef;
+        border-radius: 2px;
+        letter-spacing: normal;
+        line-height:26px;
+        text-align: center;
+        margin-top: 20px;
+        }
+     .buy{
+         .name{
+            .spanl{
+                display: inline-block;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 20px;
+            }
+            .spanr{
+                display: inline-block;
+                float:right;
+                color: #E36844;
+                font-size:20px;
+            } 
+        }    
+            .desc{
+                margin: 10px 0 15px 0;
+                .spanl{
+                    display: inline-block;
+                    width: 300px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #999;
+                }
+                .spanr{
+                    display: inline-block;
+                    float:right;
+                    font-size: 13px;
+                }
+            }
+            
+        .reiceu{
+            background: #f5f3ef;
+            padding-bottom: 20px;
+            .label{
+                line-height: 30px;
+                margin-top: 10px;
+                width: 55px;
+                font-size: 13px;
+                float: left;
+                color: #666;
+                margin-left: 10px;
+            }
+                .clearfix{
+                    height:50px;
+            
+                    .rmb{
+                     display: inline-block;
+                     margin-top: 4px;
+                    line-height: 30px;
+                    color: #d7282d;
+                    font-size: 18px;
+                    font-weight: 700;
+                    vertical-align:middle;
+                    
+                    }
+                    .num{
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 30px;
+                        margin-left: 2px;
+                        color: #d7282d;
+                        vertical-align: middle;
+                    }
+                    i{
+                        display: inline-block;
+                        width:17px;
+                        height:17px;
+                        background:url($bg) 0 -397px;
+                        vertical-align: -3px;
+                    }
+                    .vip{
+                        font-size: 13px;
+                    }
+                    a{
+                        color: #333;
+                    }
+                }
+                .coupons{
+                    
+                    .displayname{
+                            background: white;
+                            padding: 0 4px 0 6px;
+                            border-right: none;
+                            border: 1px solid #D52B33;
+                            border-radius: 2px;
+                            font-size: 12px;
+                            color: #D52B33;
+                            cursor: pointer;
+                            line-height: 50px;    
+                    }
+                    .status{
+                            background: white;
+                            padding: 0 6px 0 4px;
+                            margin-left: -1px;
+                            border-left: none;
+                            line-height: 50px;
+                            border: 1px solid #D52B33;
+                            border-radius: 2px;
+                            font-size: 12px;
+                            color: #D52B33;
+                            cursor: pointer;
+                            
+                    }
+                   
+                }
+                .clearbt{
+                    .jifen{
+                            width: 55px;
+                            font-size: 13px;
+                            float: left;
+                            color: #666;
+                            margin-left: 10px;
+                            margin-top: 3px;
+                    }
+                    .high{
+                            display: inline-block;
+                            font-size: 13px;
+                    }
+                }
+                .policy{
+                    .peisong{
+                            width: 55px;
+                            font-size: 13px;
+                            float: left;
+                            color: #666;
+                            margin-left: 10px;
+                            margin-top: 25px;
+                    }
+                    .zhi{
+                            margin-top: 25px;
+                            font-size: 13px;
+                            display: inline-block;
+                            
+                    }
+                    .addr{
+                        font-size: 12px;
+                        display: inline-block;
+                        border-bottom: 1px solid rgb(204, 204, 204);
+                        height: 24px;
+                        line-height: 24px;
+                        padding: 0 8px;
+                        margin: 0px 5px 0 6px;
+                        border: 1px solid #ccc;
+                        background: #fff;
+                        color: #666;
+                        max-width: 380px;
+                        z-index: 2;
+                        vertical-align: middle;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        i{
+                            cursor: pointer;
+                            display: inline-block;
+                            width:12px;
+                            height:7px;
+                            background:url($bg3) 0 -788px;
+                        }
+                    }
+                }
+                hr{
+                    margin: 10px 20px 10px 10px;
+                    overflow: hidden;
+                    border: none;
+                    height: 1px;
+                    border-bottom: 1px dashed #d2d2d2;
+                }
+              .pobox{
+                  margin-top:16px;
+                  .serive{
+                        width: 55px;
+                        font-size: 13px;
+                        color: #666;
+                        margin-left: 10px;
+                        line-height: 24px;
+                  }
+                  .ser{
+                      margin-left: 20px;
+                      font-size: 13px;
+                      color: #666;
+                  }
+                  span:nth-of-type(5){
+                      margin-left: 61px;
+                  }
+                  
+              }
+        }
+        .color{
+            margin:20px 0;
+            .type{
+                margin-left: 10px;
+                font-size: 12px;
+                color: #666;
+                width: 54px;
+            }
+            .colorbox{
+                line-height: 26px;
+                border: 2px solid #b4a078;
+                color: #333;
+                margin-left: 30px;
+                height: 28px;
+                padding:5px 12px;
+                font-size: 12px;
+                position:relative;
+                em{
+                    width:12px;
+                    height:12px;
+                    display: inline-block;
+                    position:absolute;
+                    background:url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/icon-normal-sd31cb8be7b-8c0b09e1f1.png) 0 -5688px;
+                    bottom:0;
+                }
+            }
+        }
+      .count{
+          margin:30px 0 30px 0;
+                .type{
+                margin-left: 10px;
+                font-size: 12px;
+                color: #666;
+                width: 54px;
+                }
+                .less{
+                    display: inline-block;
+                    margin-left:30px;
+                    height:32px;
+                    width:30px;
+                    border: 1px solid #ddd;
+                    text-align: center;
+                    line-height: 32px;
+                    border-right: none;
+                    vertical-align: middle;
+                }
+                input{
+                    width:60px;
+                    height:30px;
+                    text-align: center;
+                    border: 1px solid #ddd;
+                    vertical-align: middle;
+                }
+                .more{
+                    display: inline-block;
+                    height:32px;
+                    width:30px;
+                    line-height: 32px;
+                    border: 1px solid #ddd;
+                    border-left: none;
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }      
+          .btns{
+              .btn2{
+                   background: #b4a078;
+                   color:white;
+                   padding:10px 20px;
+                }
+                .btn1{
+                   background:#f5f3ef;
+                   color:#b4a078;
+                   padding:10px 40px;
+                }
+              .btn1,.btn2{
+                    margin-right: 10px;
+                    width: 168px;
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 18px;
+                    border: 1px solid #b4a078;
+                    border-radius: 2px;
+                    width: 96px;
+                    height: 28px;
+                    strong{
+                        position: relative;
+                        top:3px;
+                       margin-right: 8px;
+                        display: inline-block;
+                        width:21px;
+                        height:21px;
+                        background:url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/cart-sb9c1d935ed-136a897db8.png) 0 -68px ;
+                    }
+                    
+              }
+              .coll{
+                    display: inline-block;
+                    height: 44px;
+                    width: 50px;
+                    border: 1px solid #CCC;
+                    overflow: hidden;
+                    margin-bottom: -16px;
+                    text-align: center;
+                    cursor: pointer;
+                    position: relative;
+                    span{
+                            width:30px;
+                            font-size: 13px;
+                            line-height: 23px;
+                            color: #999;
+                            position:absolute;
+                            bottom:0;
+                            left:11px;
+                            
+                    }
+                    strong{
+                            position: absolute;
+                            top:5px;
+                            left:17px;
+                            height: 15px;
+                            width: 16px;
+                            display: inline-block;
+                            background:url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/icon-normal-sd31cb8be7b-8c0b09e1f1.png) 0 -672px;
+                    }
+                 }
+          }  
+             
+     }   
+     
+      
+}
+

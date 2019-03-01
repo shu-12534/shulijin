@@ -1,0 +1,157 @@
+@charset "utf-8";
+$bg: '../img/jingling.png';
+$bg1: '../img/jinglingtu2.png';
+$bg2:'../img/jinglingtu3.png';
+$bg3:'../img/jinglingtu4.png';
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+i{
+    font-style: normal;
+}
+#top {
+  height: 36px;
+  background: #333;
+  width: 100%;
+}
+//居中的盒子
+.wrapper{
+    width:1090px;
+    margin:0 auto;
+}
+//小喇叭
+.top_voice{
+    margin-top:11px;
+    width:26px;
+    float:left;
+}
+//公告
+.top_notice{
+    float:left;
+    text-decoration:underline
+}
+.top_notice a{
+    color:#b4a078;
+    font-size:12px;
+    line-height: 36px;
+}
+//顶部导航
+.top_right ul{
+    line-height: 36px;
+    float:right;   
+}
+.top_right li{
+    list-style: none;
+    float:left;
+    margin-right:10px;
+    position:relative; 
+      
+}
+//导航的分割线
+.top_right li::before{
+    content: "";
+    border-left: 1px solid #5c5c5c;
+    height:16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px; 
+}
+.top_right li:nth-of-type(1)::before{
+    border-left:none;
+}
+.top_right li:nth-of-type(1) a{
+    margin-left: 10px;
+}
+.top_right li a{
+    text-decoration: none;
+    font-size:12px;
+    color:#ccc;
+    cursor: pointer;
+}
+//向下的小箭头
+.top_right li .icon_down{
+    background: url($bg) 0 -424px;
+    transform: rotate(180deg);
+    width:11px;
+    height:5px;
+    display:inline-block;
+    margin-left:5px;
+    margin-bottom:1px;
+}
+//手机图片
+.top_right li .icon_phone{
+     background: url($bg) 0 0;
+     width:7px;
+     height:11px;
+     display:inline-block;
+     margin-right:4px;
+     margin-bottom:-2px;
+}
+.top_right li a:hover{
+    color:white;    
+}
+//顶部二级导航
+.top_right li:hover .top_subnav{
+    display:block;
+    z-index: 1;
+    background:white;
+}
+.top_right li .top_subnav{
+    position:absolute;
+    top:36px;
+    left:0px;
+    font-size: 12px;
+    color:#ccc;
+    border:1px solid #ddd;
+    box-shadow: 0 0px 2px 0 #aaa; 
+    min-width:82px;
+    display: none;
+    text-align: center;  
+}
+.top_right li .top_subnav ol{
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    width:50px  
+}
+//二级导航上的小三角形
+.top_right li .top_subnav::before{
+    content: "";
+    width:0;
+    height:0;
+    position:absolute;
+    border:8px solid white;
+    top:-16px;
+    left:33px;
+    border-color:transparent transparent white transparent
+}
+.top_right li .top_subnav ol:nth-last-of-type(1){
+    border:none;
+}
+.top_right .top_subnav a:hover{
+    color:#b4a078;
+}
+//二维码
+.top_download{
+    width:117px;
+    height:117px;
+    background:url(../img/download.png);
+    margin:10px 10px 0 10px;
+}
+.top_right .top_subnav_3 .top_down { 
+    color:#b4a078;
+    line-height:25px;
+   
+}
+
+.top_right .top_nav li .top_subnav_3{
+  position:absolute;
+  left:-40px;
+}   
+.top_right li .top_subnav_3::before{
+    left:58px;  
+}
+
